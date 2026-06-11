@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    background-color: orange;
+}
+
+main {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.galeri {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gambar {
+    width: 200px;
+    text-align: center;
+}
+
+#judul {
+    color: darkblue;
+}
+
+.kutipan {
+    font-style: italic;
+}
